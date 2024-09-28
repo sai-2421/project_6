@@ -92,14 +92,6 @@ from transformers import GPT2Tokenizer, OPTForCausalLM,Trainer, TrainingArgument
 
 import torch
 
-from fastapi import FastAPI, Request
-
-from pydantic import BaseModel
-
-import nest_asyncio
-
-import uvicorn
-
 from pyngrok import conf, ngrok
 
 import subprocess
